@@ -5,4 +5,4 @@ token:
   secret: '{cipher}AQC2WIsznXInZmN2V7+WO0Cm7bNxw1P7qEizVRH4U8DTSyN3mMXl2xteYd5M+Y+Nfh2PV/1JnXNKeHkQBugfFajvqf5FH40/H9m35HkcT3BjvuUtQXdlHU2PRBbWdrVLeM5Rz93Bankh4bPOeczCUe0sBNKm8gt/uzssRUBiT519tT+knE6SGgBWoa5uDT2TEpgFkVHXiD8m/0uJyDBoSLfUO7cBX4+cwH1676l1v5YvCutbEWdMgK5zDpkX3qwT3ODHxgiPBCKRzC75yiZdsZHwwKJBOLk6utQAOqRxpT1KZdQ08MFWTGzDin1w0+wfda2Ye8WiSskBxj0bG8LffWlmDlpyYzyyQZVqgPJa5JEAX8InA0rbo68DFDnr6p1u2CPp+hKuiAeu8B+DNaCEhU/T'
   #{cipher} 를 앞에 붙히면 어플리케이션에게 암호화된 글자라는 의미를 전달하여 일반텍스트로 읽게하지 않는다.
 dev:
- secret: dev-secret  
+ secret: dev-secret2  
