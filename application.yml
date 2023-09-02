@@ -1,14 +1,3 @@
-spring:
-  datasource:
-    url: jdbc:mysql://mysql/horse-live
-    username: root
-    password: test1357
-    driver-class-name: com.mysql.cj.jdbc.Driver
-
-  data:
-    redis:
-      host: localhost
-      port: 6379
 #해당 디렉토리(native-local-repo)에 있는 yml 파일들위에 상위로 application.yml이 있다.
 #/yml파일명/default 호출시 공통적으로 application.yml을 불러오기 때문에 공통적으로 모두 적용하고 싶은 값이 있다면 application.yml에 명시하면된다 (ex. token에 대한 key)
 token:
