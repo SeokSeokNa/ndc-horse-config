@@ -1,8 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:mysql://mysql/horse-live
+    username: root
+    password: test1357
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
 #해당 디렉토리(native-local-repo)에 있는 yml 파일들위에 상위로 application.yml이 있다.
 #/yml파일명/default 호출시 공통적으로 application.yml을 불러오기 때문에 공통적으로 모두 적용하고 싶은 값이 있다면 application.yml에 명시하면된다 (ex. token에 대한 key)
 token:
-  expiration_time: 86400000 #60 * 60 * 24 * 1000 (1일 계산)
+  access_expiration: 86400000 # 1일
+  refresh_expiration: 604800000 # 7일
   secret: '{cipher}AQC2WIsznXInZmN2V7+WO0Cm7bNxw1P7qEizVRH4U8DTSyN3mMXl2xteYd5M+Y+Nfh2PV/1JnXNKeHkQBugfFajvqf5FH40/H9m35HkcT3BjvuUtQXdlHU2PRBbWdrVLeM5Rz93Bankh4bPOeczCUe0sBNKm8gt/uzssRUBiT519tT+knE6SGgBWoa5uDT2TEpgFkVHXiD8m/0uJyDBoSLfUO7cBX4+cwH1676l1v5YvCutbEWdMgK5zDpkX3qwT3ODHxgiPBCKRzC75yiZdsZHwwKJBOLk6utQAOqRxpT1KZdQ08MFWTGzDin1w0+wfda2Ye8WiSskBxj0bG8LffWlmDlpyYzyyQZVqgPJa5JEAX8InA0rbo68DFDnr6p1u2CPp+hKuiAeu8B+DNaCEhU/T'
   #{cipher} 를 앞에 붙히면 어플리케이션에게 암호화된 글자라는 의미를 전달하여 일반텍스트로 읽게하지 않는다.
 dev:
- secret: dev-secret2  
+ secret: dev-secret2
