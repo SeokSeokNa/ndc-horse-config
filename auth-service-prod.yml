@@ -2,18 +2,18 @@ spring:
   datasource:
     url: jdbc:mysql://mysql/horse-live
     username: root
-    password: {cipher}AQCdxADaooBIOoWYMVtSQ6LUg7hxnTGHWK5lCUk2NW+ivdGThWIDqHsxFQj3nQlzn/aIXkulh51LlOn8amYBy8V/ua3Fr9hqNYLQn9fB3rhBYA/wLyq4uLiA5U5kHetNNg/F2VfSWGjwqXI3VC6bZLN8i9IfF5vrMGm7rAhs/nsHwxz1iNS5WdoXyjdDJdzpqmVDmJluBdfdJJXB19ZI4q5JI1Gu+/QngNYuzOEHlDcnXxzeIPGfeNbBvyk/1sRdSGE7VwqViNxMF/l4J4JYeEvPyR5QzPIfYlkG3UC91tLO8vihOgKLCTdTK7WChLKb9ojq1SA0jpdJfcprQKlU/WP7udhK2oOy98pBzm4hFu7/CPnWUdWYDX15Aq3IcI392yw=
+    password: seok1234
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   data:
     redis:
-      host: {cipher}AQAL5mWZoTEpMpAH+FxCzBNuPlDTr3Q0daPFIpWAccMU52yehrE5m3JgSpMNzaSf/rtbWQ6yAwU7/jNOp2ZeL9ApawVuoQYB9WKGFQ0InkdsCbgUtRWupW+yYjj7STWjpKffT6+xGV0EqW0FxRaK5BoCUOqYM6g6Obj0G9iJlBzOu7VX5ONbNBBZyYCAu9+jJAe1+7ZAxbrBDKm7K6VNLln9J70a/AQyOMzn7sebWo15bM6OitExyjKFhZV1lMYEata4azIsLbf5ADy2pOSwujSv0VieHTvHg77dq8VuMGWkFhqhYq+S8UYpb7D2fjOJiIjKKiyytjPtLwlWhJZxgB+Upm/i0XoIw5HZFPTExWWfdpFD9gjapyK8zmNUApzHu/s=
-      port: {cipher}AQA7mJaxy5zu8ZIC9V2KyJsvSm8sJWi0tjT/F72/VSiiMy/ILv1M+yrGDhsb232XKiQcWR1W3rVl6dJyb42BxZqTS7cLfj7gqn14zu5ZQDWr5vymCjsdGwuxW12MD4+Qwj0ulcQoWUqx5SgUbLIqVcXbcTc+oJAFlCWikLPPYIZGOEUvCv3IiWQ5CpC8ZBkIpYnbCwAI2ERoCdFUxfdRgnX+8gagJhQ4UnAK4YBkkbw5pZqAIzrYB9QGKRVD/G1FLNiPB/sIADzuu3I9F6m9HO/btGwR8q+eZO4loOdyMhqUNS57Dw2HVjcerqx/o2vBu57Mg/7gDID/2mlpttWMkCbPs3x/3G0dgg7UWQQstqdVojWazX1GUZslJjKI6/Crwzk=
+      host: localhost
+      port: 6379
 
 application:
   security:
     jwt:
-      secret-key: {cipher}AQDB8TUDQ9015g3ZZxn668gCdDI7l4eKMZHO3Y/UsbB0x1alcLjq1DBHV4xuDLheuRrxAj+ujDKVn+/jxOkVFrleAywQNWiPzzKjP+u7gwuNX7eDetcDc6GAhvYHt9CDQ+fBvQGE8hqYssd4JrJAtmUoAi/++xeJNskrdQqcQ/NnS+P+AndTmHhLge3Q9OyZ5RRepJrnIbEXYMDIlFQTeWwBWgUHajHYYBKQ/mc3IWki4hLRKbQVVPRL5kS8Vl2t+KBshro487OJKTNFapsil+o69NugUI5gnoc81Lx4O/u6LQEDpJ0ybascQNCb1PYJg81YhnMIAI7eX1PFsntGlcn8CRjvGbaYOmZGhrsgM6DZwz5uPf5/3j/IXW2+IbjAzjCtcnIpAC6nVy/GTTYijLZdcXtYsZ73yuD9ZgWpUjXCxlqn4QYJ6ll6OKhIc80hy1yCAljwFbZNHnx5LW90HG7y
-      expiration: {cipher}AQCdPwY9ubfomudSrRkgaiiWOgJi42GP+iMTHFfXW4AKAmtgjOvozZTbW6ssLIj7je77+QOUgWPktm00KmjrtpbYMC8P+MYH56v4SKrOQk3+YBwOyM/ddvLJWkzMd89Uym2iDelrBML/+g5VwXVlkDCC1vtWaDob5XEcgjqrox/2scuaCtjmW7/0di3n6j/wqxPu6S/ChdGjSU31NWQeqSSO1NtHy/JQD+twshuRpBvRhZ8P7S8hghvcj7p7YRiZtKNDK0FVl4EWG8UoIO8XkTsUSlsncT2cUtEW4uXi2jo6/fKvQcCSIuoSMtl5vV2ar8wZ6YGknZpa22SvyYoiG3uZUU9Xj23FGcr/zGzxzGL3t18cQBAhVkzhVhyybTbcxTw= # a day
+      secret-key: test
+      expiration: 86400000 # a day
       refresh-token:
-        expiration: {cipher}AQAIdIAvmOz4z3vddQhR3hR4zxRYv4S/aWAPy2doIIiUfLjvgvz0lllRuiwBzDcjSxVYEgQfAfkxVyYjlvs2O1NMtG7t1LXp/QOdDcPnMs0o+G7L6i7wjrWMUCB5dO/heXClCG6fa+PnQHtHYj8HcYMHEw6KXfF6KLk1jThzOd4NVNDJnrVvxvb1SBTo+jWW32IKxdOB4iUOWQ+Bwjn/6xunMvkyzAkRWGZtweHKqr/zaKZoZQHtsQDQTxym1vL6QNPRU2gQL7iok7tlnGMRhSSs2x2Yrwl7EI3bge8ruT+PeAw3/o0p/uNuHJOE23Podo5gSrGMcwj7mKtJbnL23P8av5G+T/ysbaF8anBNNzkDguUex9FvRsLNMzALUSewL4M= # 7 days
+        expiration: 604800000 # 7 days

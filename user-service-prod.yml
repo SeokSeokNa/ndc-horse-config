@@ -2,5 +2,5 @@ spring:
   datasource:
     url: jdbc:mysql://mysql/horse-live
     username: root
-    password: {cipher}AQCdxADaooBIOoWYMVtSQ6LUg7hxnTGHWK5lCUk2NW+ivdGThWIDqHsxFQj3nQlzn/aIXkulh51LlOn8amYBy8V/ua3Fr9hqNYLQn9fB3rhBYA/wLyq4uLiA5U5kHetNNg/F2VfSWGjwqXI3VC6bZLN8i9IfF5vrMGm7rAhs/nsHwxz1iNS5WdoXyjdDJdzpqmVDmJluBdfdJJXB19ZI4q5JI1Gu+/QngNYuzOEHlDcnXxzeIPGfeNbBvyk/1sRdSGE7VwqViNxMF/l4J4JYeEvPyR5QzPIfYlkG3UC91tLO8vihOgKLCTdTK7WChLKb9ojq1SA0jpdJfcprQKlU/WP7udhK2oOy98pBzm4hFu7/CPnWUdWYDX15Aq3IcI392yw=
+    password: seok1234
     driver-class-name: com.mysql.cj.jdbc.Driver 
