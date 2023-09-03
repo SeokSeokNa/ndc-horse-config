@@ -3,7 +3,7 @@
 token:
   access_expiration: 86400000 #60 * 60 * 24 * 1000 (1일 계산)
   refresh_expiration: 604800000 #60 * 60 * 24 * 1000 (1일 계산)
-  secret: '{cipher}AQCXywx7TyqFWOg2GpSJmX+cvfI8sgdFCcjT5CImDFHAKIDvnqtcgsCJeHhMWXHaqtq6IjKNrX1LJeyOzb6cUCe49d5nQg7HcuLJVUqmCDn9YE9jStI612elS9zhW5PH6ZdbEZ9GGIHFHOIi5/S5YfC9L9af7/Ft3PzVeavDrTYyu9JKblVC0+8kj1XWY8bIyJfbDJBEUMubH9F2RdYfgRMbLKszbkAyqJtZ8Kj9hsEnnrH3gd0l6d5VyNN9YOu3EUet+hkO8QZqtPeGB0+B+BySAk3ZTs+CwJcNexes0m0SCMQ8WIhH60ajAmCFKYvHMO733ePxFX/zN7BLCxa42H4kmwFvKtCgiJjx/mZh9Kb54LOrIE+b/zzJqynTPrAeWacxlXagEZo65QtQZbVOFYrr'
+  secret: '{cipher}AQBTDABbD+L4d7Xm+970WJmasy5yUCaZNyOxSWkvfhMxVAjBqQjuUBEpvBPiLDXt82P9+XnW1ihDqjupTvX5Pim4P8EaLwxGvn7Ws7ep7lCkxSowm/MidhdCrY+wxK35MMn8brFrIzDxVBJzuTMc95MgEdQN2q92tcuxNqPGNb2Cz+jzshRGJWeqOHSIDWPB1TM8LTnkZyMvBQ756S5Kb1iNdsOANAYhn+CnhSbu/vGmkUOhiKu7Vc9iVwfzZ3e+WW3r/07aajffSCFU0+2nATYmCWHkZocxgetyp4a9uXcNqks/y4grfe/yQORYaTeE8cYsgNhDKBqHgcJ3BvVzZxBcV0GtVw8mYLkVV4u1tLmMDnUkk6rWFUbZufUisMU7Cl2kq9ipbdmhfEVHGe3pGUm1f8t3kKABYpjgqJRwjIo3cEzpRJ/eEp2G90eOeg5IcTh4yzcwiD/bbw8mj0kXlZCN'
   #{cipher} 를 앞에 붙히면 어플리케이션에게 암호화된 글자라는 의미를 전달하여 일반텍스트로 읽게하지 않는다.
 dev:
   secret: dev-secret2
