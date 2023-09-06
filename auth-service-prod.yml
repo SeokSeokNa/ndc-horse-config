@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://mysql/horse-live
     username: root
-    password: test1357
+    password: '{cipher}AQB6/A16eOCixAIqwYI2ziycEbIxXlHRuAhPFjTeNuVWz4RE7CU6JewkF0D/cZEnPIVXEERsZ8qeJAx6bhxVbio/1QLlG4keRIRUlehtc2eYQeqW96W4M+4wXkl+PBb7ym+rVMcsg5YsqSVY27bhWzBiDR+LuMHANRev4cBVW3uUmVb+vsAN62CGxom+yrI19X2Z51bY8zIG5P8UBc4r8n4E5WlJHz2QgcogOtMkGppqF3hGk5xNQ8gEonzOPgzTrjFu4M/cljqNm9sIh1F8uXQDOmAEOyUzBwO4peHkN6IlVUGR7irBc+nYBk4euZUSqsljOAjgf28iZhZf15oomePgpXdUBqaxFNDvwrgYuVhXBfIAwMbKxyyl66RDqfsxSXY='
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   data:
